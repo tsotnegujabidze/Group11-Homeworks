@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    width: 300px;
+}
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+}

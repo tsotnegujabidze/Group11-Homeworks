@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(228, 235, 238);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.box {
+    background-color: rgb(253, 253, 253);
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: -80px;
+}
+
+
+.box form {
+    margin-top: -500px;
+    width: 350px;
+    margin-left: 55%;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+    background-color: rgb(214, 214, 214);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: rgb(47, 0, 255);
+}
+
+.box button {
+    background-color: rgb(24, 4, 139);
+    color: aliceblue;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.box a {
+    text-decoration: none;
+    margin-left: 235px;
+}
+
+.acc a {
+    margin-left: 160px;
+}
+.text h1 {
+    margin-left: 70%;
+}

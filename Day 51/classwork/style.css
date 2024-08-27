@@ -1,0 +1,23 @@
+.first-p {
+    color: red;
+    font-size: large;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+    
+}
+
+#only {
+    color: aqua;
+    font-size: large;
+    text-shadow: 0 0 5px rgba(0, 255, 238, 0.8);
+}
+
+button {
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0 0 10 rgb(black, rgb(0, rgb(0, 0, 0)), blue);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
