@@ -1,0 +1,43 @@
+.p1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transform: scale(2);
+}
+
+.p2{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transform: rotate(30deg);
+}
+
+.p3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: translate(100px, 50px);
+}
+
+.p4{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: skew(15deg, 10deg);
+}
+
+#btn{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    
+}
+
+#btn:hover{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,21 @@
+.maindiv2 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center; 
+    margin-top: 200px;
+}
+
+.regdiv {
+    display: grid;
+    width: 350px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+#btn2{
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
