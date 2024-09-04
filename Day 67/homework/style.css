@@ -1,0 +1,16 @@
+#btn1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 43, 224);
+}
+
+#btn1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    transform: translate(1800px, 800px) rotate(90deg);
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
