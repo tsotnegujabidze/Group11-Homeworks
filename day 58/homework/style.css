@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 203, 203);
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    width: 400px;
+    height: 300px;
+    gap: 30px;
+}
+
+.child1{
+    border: 3px solid red;
+    text-align: center;
+    background-color: white;
+}
+.child2{
+    border: 3px solid green;
+    text-align: center;
+    background-color: white;
+}
+.child3{
+    border: 3px solid  blue;
+    text-align: center;
+    background-color: white;
+}
+.child4{
+    border: 3px solid violet;
+    text-align: center;
+    background-color: white;
+}
+.child5{
+    border: 3px solid black;
+    text-align: center;
+    background-color: white;
+}
+.child6{
+    border: 3px solid purple;
+    text-align: center;
+    background-color: white;
+}
