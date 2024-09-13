@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 class="title">Welcome!</h1>
+        <button class="cart" onclick="toggleCart()">View Cart</button>
+        <div class="products">
+            <div class="product">
+                <img src="./images/product1.png" alt="Product Photo">
+                <button class="atc" data-product="Product 1" onclick="addToCart(this)">Add To Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/product2.png" alt="Product Photo">
+                <button class="atc" data-product="Product 2" onclick="addToCart(this)">Add To Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/product3.png" alt="Product Photo">
+                <button class="atc" data-product="Product 3" onclick="addToCart(this)">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="cart-section" id="cart-section" style="display:none;">
+            <h2>Your Cart</h2>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
