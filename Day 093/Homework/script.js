@@ -10,6 +10,6 @@ function submit() {
 
     const person1 = new Submit(firstname, lastname, email);
 
-    alert(person1.firstname + ' ' + person1.lastname + ' ' + person1.email)
+    alert(`${person1.firstname} ${person1.lastname} ${person1.email}`)
 }
 

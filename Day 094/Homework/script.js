@@ -21,10 +21,7 @@ for(let i = 0; i < products.length; i++) {
 
     const productElement = document.createElement('div');
 
-    const img = document.createElement('img');
-    img.src = 'https://via.placeholder.com/150';
-
-    productElement.appendChild(img);
+    
 
     const h2 = document.createElement('h2');
     h2.textContent = product.name;
